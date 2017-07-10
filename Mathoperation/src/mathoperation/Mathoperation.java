@@ -35,6 +35,9 @@ public class Mathoperation {
            System.out.println( "l*k is " + h );
            System.out.println( "l/k is " + d );
           
+          l +=62;
+          k -=325;
+          
           p = 8;
           q = 25;
          System.out.println( "p is " + p + ", q is " + q );
