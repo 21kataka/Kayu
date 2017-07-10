@@ -19,7 +19,9 @@ public class Person {
        String country = "Japan";
        String firstname = "Kayu";
        String lastname = "Katagiri";
+             
        boolean isastudent = true;
+       boolean isnotastudent = false;
        
        System.out.println("My name is " + firstname + "" + lastname);
        System.out.println("I am from " + country + " and I am " + age + " years old");
