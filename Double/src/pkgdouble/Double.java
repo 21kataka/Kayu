@@ -20,7 +20,7 @@ public class Double {
         double dice2 = 1;
         
         while (dice1 != dice2) {
-        System.out.print("This is a dice program, just say yes for the dices to roll.");
+        System.out.println("This is a dice program, just say yes for the dices to roll.");
         String input = keyboard.nextLine();
         
         if (input.equals("yes"));
