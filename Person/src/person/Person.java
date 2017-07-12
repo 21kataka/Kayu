@@ -11,21 +11,67 @@ package person;
  */
 public class Person {
 
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getShoesize() {
+        return shoesize;
+    }
+
+    public void setShoesize(int shoesize) {
+        this.shoesize = shoesize;
+    }
+
+    public String getPhonenumber() {
+        return phonenumber;
+    }
+
+    public void setPhonenumber(String phonenumber) {
+        this.phonenumber = phonenumber;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public boolean isIsastudent() {
+        return isastudent;
+    }
+
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-       int age = 14;
-       String country = "Japan";
-       String firstname = "Kayu";
-       String lastname = "Katagiri";
-             
-       boolean isastudent = true;
-       boolean isnotastudent = false;
-       
-       System.out.println("My name is " + firstname + "" + lastname);
-       System.out.println("I am from " + country + " and I am " + age + " years old");
-        
+    public void setIsastudent(boolean isastudent) {
+        this.isastudent = isastudent;
     }
-    
-}
+
+       int age;
+       int shoesize;
+       String phonenumber;
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+       String firstname;
+       String lastname;
+       boolean isastudent;
+        
+    public Person(String first, String last, String phone) {
+        firstname=first;
+        lastname=last;
+        phonenumber=phone;
+    }
+    }
