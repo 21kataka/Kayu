@@ -1,0 +1,50 @@
+Questions
+What university is the top number one right now?
+AnswerChoice
+1. Caltech
+2. Stanford
+3. Harvard
+4. MIT
+Answer
+4
+
+Questions
+If I'm going 80 miles per hour how long will it take go to 80 miles?
+AnswerChoice
+1. A minute
+2. A second
+3. A hour
+4. 80 miles
+Answer
+3
+
+Questions
+Who is the prime minister of Canada?
+AnswerChoice
+1. Thomas Mulcair
+2. Justin Trudeau
+3. Stephen Harper
+4. Gilles Duceppe
+Answer
+2
+
+Questions
+What is the capital of Canada?
+AnswerChoice
+1. Vancouver
+2. Toronto
+3. Ottawa
+4. Montreal
+Answer
+3
+
+Questions
+What state in the United States has the abbreviation, MS?
+AnswerChoice
+1. Mississippi
+2. Missouri
+3. Minnesota
+4. Massachusetts
+Answer
+1
+
