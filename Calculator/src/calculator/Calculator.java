@@ -20,7 +20,7 @@ public class Calculator {
      */
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("This is 1.0 Calculator (press q to quit).");
+        System.out.println("This is 1.0 Calculator (press q to quit)."); 
         boolean on = true;
         while (on) {
             String input = keyboard.nextLine();
@@ -59,6 +59,11 @@ public class Calculator {
                 double e = Double.parseDouble(num1);
                 double f = Double.parseDouble(num2);
                 System.out.println(e * f);
+                
+                //2345.4*6875.9 <-String
+                // ['2','3','4','5','.4','*','6','8','7','5','.9']
+                //2345.4 6875.9 <-String
+                //Converts to numbers 2345.4 6875.9
             }
             if (inputs.contains('/')) {
                 int l = inputs.indexOf('/');
